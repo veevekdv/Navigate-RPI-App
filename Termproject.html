@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Term project</title>
+    <link rel="icon" type="image/x-icon" href="resources/Logo.PNG">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&family=Red+Hat+Mono:wght@300&display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script type="text/javascript" src="resources/jquery-3.1.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script type="text/javascript" src="Termproject.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="Termproject.css" type="text/css"/>
+    <script type="text/javascript" async src="https://www.theweather.com/wid_loader/24ddf562c032aac5f8d38105c116185d"></script>  
+  </head>
+  <body>
+    <div id="global">
+        <img src="resources/Logo.PNG" id="logo" alt="Navigate RPI logo"><img>
+        <div id="right_heading">
+          <div class="middle" id="menu">
+            <a href="#right_heading">Main</a>
+            <a href="#map" id="mapButton">Map</a>
+            <a href="Database/search_bar.html">Clubs</a>
+            <a href = "resources/RPI_Disorientation_Guide.pdf">Huy Chu's Orientation Guide</a>
+            <a href = "https://success.studentlife.rpi.edu/first-year-experience-fye">FYE Page</a>
+          </div>
+        </div>
+        <div id="leftbody">
+          <a class="twitter-timeline" data-height="749" data-theme="dark" href="https://twitter.com/rpi?ref_src=twsrc%5Etfw">Tweets by rpi</a>
+        </div>
+        <div id="map_body">
+            <h1>Get Oriented</h1>
+            <p>Use the drop downs at the bottom to calculate your route</p>
+            <div id="map"></div>
+            <div id="floating-panel">
+              <b>Start: </b>
+              <select id="start">
+                <option value="rensselaer polytechnic institute">Rensselaer Polytechnic Institute</option>
+                <option value="rensselaer student union">Renssealaer student union</option>
+                <option value="Commons Dining Hall, 1999 Burdett Ave, Troy, NY 12180">Common dining hall</option>
+                <option value="east campus athletic village">ECAV</option>
+                <option value="Mueller Center RPI Gymnasium, 110 8th St, Troy, NY 12180">Mueller Center</option>
+                <option value="Russell Sage Dining Hall, Russel Sage Dining Hall, Troy, NY 12180">Russell Sage Dining Hall</option>
+                <option value="'86 Field, 110 8th St, Troy, NY 12180">86 Field</option>
+                <option value="RPI Amos Eaton Hall, 110 8th St, Troy, NY 12180">Amos Eaton Hall</option>
+                <option value="Lally Hall, 110 8th St, Troy, NY 12180">Lally Hall</option>
+                <option value="Pittsburgh Bldg, 110 8th St, Troy, NY 12180  ">Pittsburgh</option>
+                <option value="Russell Sage Laboratory, 110 8th St, Troy, NY 12180">Russell Sage Laboratory</option>
+                <option value="Darrin Communications Center, 15th St, Troy, NY 12180">Darrin Communications Center</option>
+              </select>
+              <b>End: </b>
+              <select id="end">
+                <option value="rensselaer polytechnic institute">Rensselaer Polytechnic Institute</option>
+                <option value="rensselaer student union">Renssealaer student union</option>
+                <option value="Commons Dining Hall, 1999 Burdett Ave, Troy, NY 12180">Common dining hall</option>
+                <option value="east campus athletic village">ECAV</option>
+                <option value="Mueller Center RPI Gymnasium, 110 8th St, Troy, NY 12180">Mueller Center</option>
+                <option value="Russell Sage Dining Hall, Russel Sage Dining Hall, Troy, NY 12180">Russell Sage Dining Hall</option>
+                <option value="'86 Field, 110 8th St, Troy, NY 12180">86 Field</option>
+                <option value="RPI Amos Eaton Hall, 110 8th St, Troy, NY 12180">Amos Eaton Hall</option>
+                <option value="Lally Hall, 110 8th St, Troy, NY 12180">Lally Hall</option>
+                <option value="Pittsburgh Bldg, 110 8th St, Troy, NY 12180">Pittsburgh</option>
+                <option value="Russell Sage Laboratory, 110 8th St, Troy, NY 12180">Russell Sage Laboratory</option>
+                <option value="Darrin Communications Center, 15th St, Troy, NY 12180">Darrin Communications Center</option>
+              </select>
+            </div>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9cH17ZjHXOdoYp_p17vR01tJScomYPY0&callback=initMap&v=weekly&channel=2"></script>
+            
+        </div>
+        <div id ="right_body">
+          <div id="cont_24ddf562c032aac5f8d38105c116185d" class=weather></div>
+          <div class="link_board" id="links">
+            <ul>Important Links</ul>
+            <a href="https://info.rpi.edu/registrar/academic-calendar">Academic Calendar</a><br>
+            <a href="https://cas.auth.rpi.edu/cas/login?service=https%3A%2F%2Fapex.cct.rpi.edu%2Fapex%2FSimon_Apex.cas_login_redirect%3FAPP%3D244%26SESSION%3D16807308009526">DIAL CHECK-IN</a><br>
+            <a href="https://poly.rpi.edu/">POLYTECHNIC</a><br>
+            <a href="https://twitter.com/rpi">TWITTER</a><br>
+            <a href="https://www.reddit.com/r/RPI/">REDDIT</a><br>
+            <a href="https://union.rpi.edu/">UNION</a><br>
+            <a href="https://lms.rpi.edu">LMS</a><br>
+            <a href="https://cas-sis.auth.rpi.edu/cas/login?service=https%3A%2F%2Fbannerapp02-bnrprd.server.rpi.edu%3A443%2Fssomanager%2Fc%2FSSB">SIS</a><br>
+          </div>
+        </div>
+    </div>
+  </body>
+  <footer>
+    <div id="floor">floor</div>
+  </footer>
+</html>

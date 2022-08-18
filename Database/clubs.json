@@ -1,0 +1,142 @@
+[
+	{
+		"abbr": "RAS",
+		"name": "Astrophysical Society",
+		"web": "https://astro.union.rpi.edu/",
+		"desc": "The Rensselaer Astrophysical Society (RAS) allows students to pursue their interest in astronomy. The society works in conjunction with the physics department to maintain the Hirsch Observatory atop the Science Center. Students are trained in the use of observatory and the Society's various telescopes, then placed on the observatory key list. Once on the key list, members can use the observatory at any time. The club also helps run Saturday night public observing sessions between February and November of each year.",
+		"time": "Mondays at 9pm",
+		"loc": "Library",
+		"cat": "Science",
+		"image": "images/Astro.jpg"
+	},
+	{
+		"abbr": "RDI",
+		"name": "Dance Team",
+		"web": "https://astro.union.rpi.edu/",
+		"desc": "RPI Dance Team is a group of students who share a love for dance and performance. We promote school spirit by performing jazz, pom, and hip hop numbers at home football games, home basketball games, and other school events. We also compete annually in the spring.",
+		"time": "Wednesdays at 7pm",
+		"loc": "Mueller Center",
+		"cat": "Dance",
+		"image": "images/dance.jpg"
+	},
+	{
+		"abbr": "RDI",
+		"name": "Super Smash Bros Club",
+		"web": "https://www.facebook.com/groups/RPISmash/",
+		"desc": "A club for the enjoyment of Super Smash Bros, from both the competitive and the casual side. For more information PLEASE CONTACT our club officers: ssb@union.lists.rpi.edu",
+		"time": "Sundays at 2pm",
+		"loc": "Union",
+		"cat": "Gaming",
+		"image": "images/smashbros.jpg"
+	},
+	{
+		"abbr": "RDI",
+		"name": "Photo Club",
+		"web": "https://photo.union.rpi.edu/",
+		"desc": "We love all things photography. From developing film in our darkroom, to putting on workshops on photography methods, to going on trips to NYC or the Saratoga Balloon Festival, if you like or are interested in photography, we can help!",
+		"time": "Sundays at 2pm",
+		"loc": "Union",
+		"cat": "Photo",
+		"image": "images/Photo.jpg"
+	},
+	{
+		"abbr": "RDI",
+		"name": "Women at Rensselaer Mentor Program",
+		"web": "http://wmp.union.rpi.edu/",
+		"desc": "The Women at Rensselaer Mentor Program is a community of like-minded women who have the skills and tools necessary to be confident self-advocates and leaders. WMP builds mentoring partnerships to support first-year women in achieving their academic, professional, and social goals. WMP provides programming that allows students to develop the skills, habits, and attitudes of high-performing, compassionate leaders.",
+		"time": "Mondays at 2pm",
+		"loc": "Library",
+		"cat": "Women",
+		"image": "images/rpi.png"
+	},
+	{
+		"abbr": "RDI",
+		"name": "Women's Club Soccer",
+		"web": "https://rpiwcs.wixsite.com/rpiwomensclubsoccer",
+		"desc": "The RPI Women's Club Soccer team aims to play in a competitive and fun environment, without the major time commitment of a varsity sport while still playing at a high level. The team roughly consists of 25 girls. Our main season is from September through October, but practices and games are held throughout the academic year. Practices are held once or twice a week in the evenings and games are usually held on weekend afternoons.",
+		"time": "Wednesdays at 2pm",
+		"loc": "Mueller Center",
+		"cat": "Sports",
+		"image": "images/soccer.jpg"
+	},
+	{
+		"abbr": "GDB",
+		"name": "Game Development Club",
+		"web": "https://gamedev.union.rpi.edu/",
+		"desc": "We are the RPI Game Development Club. We run weekly meetings that range from workshops, guest speakers, hangouts, presentations and everything else game development related. Our club runs multiple Game Jams and the annual Rensselaer Game Showcase.",
+		"time": "Thurdays at 5pm",
+		"loc": "Union",
+		"cat": "Gaming",
+		"image": "images/game.png"
+	},
+	{
+		"abbr": "BD",
+		"name": "Badminton club",
+		"web": "https://badminton.union.rpi.edu/",
+		"desc": "We play badminton in campus 87 Gymnasium every Tuesday, Thursday evening and Saturday morning. We will also organize matches regularly.",
+		"time": "Saturdays at 7pm",
+		"loc": "87 Gymnasium",
+		"cat": "Sports",
+		"image": "images/badminton.jpg"
+	},
+	{
+		"abbr": "DDR",
+		"name": "Dance Dance Revolution",
+		"web": "http://www.caseymaddy.net/files/wd/DDRClub/index.html",
+		"desc": "We are a club for playing the rhythm game Dance Dance Revolution, shortened as DDR. DDR is played on a platform by stepping in time to the beat of the music and the corresponding arrow on the screen. We have members of every skill level and welcome anyone who wants to join. We have our own arcade platform and travel to the nearby Dave and Buster's to play on their DDR A machine, the second most recent iteration of DDR. ",
+		"time": "Saturdays at 2pm",
+		"loc": "87 Gymnasium",
+		"cat": "Dance",
+		"image": "images/dance1.jpg"
+	},
+	{
+		"abbr": "BX",
+		"name": "Boxing club",
+		"web": "https://badminton.union.rpi.edu/",
+		"desc": "RPI's club boxing program. We host practices 3 days a week and teach the fundamentals of the sport of boxing to students.",
+		"time": "Sundays at 5pm",
+		"loc": "87 Gymnasium",
+		"cat": "Sports",
+		"image": "images/boxing.jpg"
+	}	,
+	{
+		"abbr": "FC",
+		"name": "Fencing Club",
+		"web": "https://fencing.union.rpi.edu/",
+		"desc": "We teach all three forms of fencing: foil, saber, and epee, with classes for beginners as well as experienced fencers. We fence competitively intercollegiately as well as in the community at USA fencing sanctioned events. We also compete internationally once a year in Canada.",
+		"time": "Tuesdays at 5pm",
+		"loc": "87 Gymnasium",
+		"cat": "Sports",
+		"image": "images/fencing.jpg"
+	},
+	{
+		"abbr": "RN",
+		"name": "Running Club",
+		"web": "http://running.union.rpi.edu/",
+		"desc": "Rensselaer Running Club is open to students of all ability and commitment levels who share a passion for running. Students will be able to participate in workouts, road races, charity events, and additional team-building activities of their choosing.",
+		"time": "Fridays at 5pm",
+		"loc": "Mueller Center",
+		"cat": "Sports",
+		"image": "images/running.png"
+	},
+	{
+		"abbr": "Rpop",
+		"name": "Rpop",
+		"web": "https://bit.ly/teamrpi",
+		"desc": "Rpop provides the platform and resources for students who are fond of or intrigued by the K-pop culture. Our club activities include but not limited to dancing, editing, cosmetics, and many more. All offer an alternative perspective of the K-pop culture.",
+		"time": "Fridays at 5pm",
+		"loc": "Mueller Center",
+		"cat": "Dance",
+		"image": "images/rpop.jpg"
+	},
+	{
+		"abbr": "HZ",
+		"name": "Humans vs Zombies Club",
+		"web": "https://www.facebook.com/rpi.hvz",
+		"desc": "Our club is dedicated to the tag like game of Humans vs Zombies. Using our massive arsenal of nerf blasters we fight endless wave of zombies across the entire campus and attempt to not succumb to the horde. Due to COVID we will be focusing on recreating the HvZ experience online within video games. We also plan on showing off nerf modding techniques and will hopefully expand into smaller scale in-person games as the year progresses.",
+		"time": "Sundays at 5pm",
+		"loc": "Union",
+		"cat": "Gaming",
+		"image": "images/zombies.jpg"
+	}			
+]

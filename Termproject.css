@@ -1,0 +1,142 @@
+/*Term project css file */
+#heading{
+    width: 9%;
+    height: 50px;
+    background-color: red;
+    color:white;
+    float: left
+}
+
+h1{
+    text-align:center;
+    color:#b30000;
+    border-bottom:4px solid #b30000;
+}
+#logo{
+    padding:12px 0 0 0;
+}
+#right_heading{
+    width: 90%;
+    height: 50px;
+    background-color:#ff6666;
+    display: table;
+    border:2px solid black;
+    float: right
+}
+.middle {
+    display:inline;
+}
+#menu a {
+    margin:0 4% 0 4%;
+
+
+}
+#leftbody{
+    width: 20%;
+    height: 78.5%;
+    margin:5px 1% 1% 1%;
+    float: left;
+}
+#map_body{
+    width: 50%;
+    height: 730px;
+    margin-left:15px;
+    background-color: white;
+    float: left;
+    border-top:4px solid #b30000;
+}
+#map_body p{
+    text-align: center;
+    font-size: larger;
+    
+}
+body {
+    background-color: #990000;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Red Hat Mono', monospace;
+    float:center;
+}
+#right_body{
+    width:25%;
+    height: 750px;
+    background-color:#ff6666;
+    float: right;
+    border-top: 4px solid #990000;
+
+}
+.link_board{
+    margin-top: 10%;
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+    height: 30%;
+    background-color:#C5E9F3;
+    border-top:6px solid black;
+    border-right:12px solid black;
+    border-bottom:6px solid black;
+    border-left:4px solid black;
+    padding:0px 0px 35px 0px;
+
+}
+.weather{
+    margin-top: 10%;
+}
+.link_board ul{
+    text-decoration:underline;
+    float:center;
+    text-align:left;
+    margin: 10px 0 10px -15px;
+}
+.link_board a{
+    display:inline;
+    border-left: 2px solid gray;
+    border-right:2px solid gray;
+    border-bottom:2px solid gray;
+    padding: 0px;
+    margin: 25px 0 25px 0;
+    text-decoration:none;
+}
+#logo{
+    width:9%;
+    height: 15%;
+}
+
+#floor{
+    clear: both;
+    height: 100px;
+    background-color: #ff6666;
+}
+#map {
+    height: 78.5%;
+    
+  }
+
+#floating-panel {
+    position: middle;
+    bottom: 10px;
+    left: 30%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    line-height: 30px;
+    padding-left: 10px;
+}
+#sortable {
+    list-style-type: none;
+    margin: 0; padding: 0; 
+    width: 60%; 
+}
+#sortable li { 
+    margin: 0 3px 3px 3px; 
+    padding: 0.4em; 
+    padding-left: 1.5em; 
+    font-size: 1.4em; 
+    height: 18px; 
+}
+#sortable li span { 
+    position: absolute; 
+    margin-left: -1.3em; 
+}
